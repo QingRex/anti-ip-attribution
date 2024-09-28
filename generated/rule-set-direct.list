@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution rule-set-direct.list v0.3.1 55957b642af8797a33d0b418ad9228d3ba339da7
+# anti-ip-attribution rule-set-direct.list v0.3.1 b0c44340327467e773ff8fd114ef7d872ff15e42
 # https://github.com/SunsetMkt/anti-ip-attribution
 # 适用于Clash RULE-SET
 DOMAIN-SUFFIX,lf127.net

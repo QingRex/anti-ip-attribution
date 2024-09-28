@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution quantumultx-domesticsocial.list v0.3.1 55957b642af8797a33d0b418ad9228d3ba339da7
+# anti-ip-attribution quantumultx-domesticsocial.list v0.3.1 b0c44340327467e773ff8fd114ef7d872ff15e42
 # https://github.com/SunsetMkt/anti-ip-attribution
 # QuantumultX分流规则，策略组名称为DomesticSocial
 DOMAIN-SUFFIX,weibo.cn,DomesticSocial
@@ -123,30 +123,6 @@ DOMAIN,ngabbs.com,DomesticSocial
 DOMAIN,bbs.nga.cn,DomesticSocial
 DOMAIN,nga.178.com,DomesticSocial
 DOMAIN,api.vip.miui.com,DomesticSocial
-DOMAIN-SUFFIX,music.163.com,DomesticSocial
-DOMAIN,nstool.netease.com,DomesticSocial
-DOMAIN,wanproxy.127.net,DomesticSocial
-DOMAIN,mam.netease.com,DomesticSocial
-DOMAIN,dt.netease.im,DomesticSocial
-DOMAIN,api.iplay.163.com,DomesticSocial
-DOMAIN,api.k.163.com,DomesticSocial
-DOMAIN,lbs.netease.im,DomesticSocial
-DOMAIN,wannos.127.net,DomesticSocial
-DOMAIN,ac.dun.163.com,DomesticSocial
-DOMAIN-SUFFIX,music.126.net,DomesticSocial
-DOMAIN-SUFFIX,laiqukankan.com,DomesticSocial
-DOMAIN-SUFFIX,music.ntes53.netease.com,DomesticSocial
-IP-CIDR,101.71.154.241/32,DomesticSocial
-IP-CIDR,103.126.92.132/32,DomesticSocial
-IP-CIDR,103.126.92.133/32,DomesticSocial
-IP-CIDR,112.13.119.18/32,DomesticSocial
-IP-CIDR,112.13.122.4/32,DomesticSocial
-IP-CIDR,115.236.118.34/32,DomesticSocial
-IP-CIDR,115.236.121.4/32,DomesticSocial
-IP-CIDR,45.254.48.1/32,DomesticSocial
-IP-CIDR,59.111.160.195/32,DomesticSocial
-IP-CIDR,59.111.19.33/32,DomesticSocial
-IP-CIDR,59.111.19.53/32,DomesticSocial
 DOMAIN-SUFFIX,lofter.com,DomesticSocial
 DOMAIN,yaolu.yuedu.163.com,DomesticSocial
 DOMAIN-SUFFIX,lf127.net,DIRECT
