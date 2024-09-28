@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution parser.yaml v0.3.1 8d0c520857f095a3b451c71f8c326b50299e6022
+# anti-ip-attribution parser.yaml v0.3.1 55957b642af8797a33d0b418ad9228d3ba339da7
 # https://github.com/SunsetMkt/anti-ip-attribution
 # 适用于Clash for Windows的配置文件预处理功能，详见https://docs.cfw.lbyczf.com/contents/parser.html
 parsers:
@@ -12,31 +12,6 @@ parsers:
       - DIRECT
       type: select
     prepend-rules:
-    - DOMAIN,httpdns.bilivideo.com,REJECT
-    - IP-CIDR,47.101.175.206/32,REJECT
-    - IP-CIDR,47.100.123.169/32,REJECT
-    - IP-CIDR,120.46.169.234/32,REJECT
-    - IP-CIDR,121.36.72.124/32,REJECT
-    - IP-CIDR,116.63.10.135/32,REJECT
-    - IP-CIDR,122.9.7.134/32,REJECT
-    - IP-CIDR,117.185.228.108/32,REJECT
-    - IP-CIDR,117.144.238.29/32,REJECT
-    - IP-CIDR,122.9.13.79/32,REJECT
-    - IP-CIDR,122.9.15.129/32,REJECT
-    - IP-CIDR,101.91.140.224/32,REJECT
-    - IP-CIDR,101.91.140.124/32,REJECT
-    - IP-CIDR,114.116.215.110/32,REJECT
-    - IP-CIDR,116.63.10.31/32,REJECT
-    - IP-CIDR,112.64.218.119/32,REJECT
-    - IP-CIDR,112.65.200.117/32,REJECT
-    - "DOMAIN-SUFFIX,biliapi.net,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-SUFFIX,biliapi.com,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-SUFFIX,bilibili.com,IP\u5F52\u5C5E\u5730"
-    - "IP-CIDR,203.107.1.0/24,IP\u5F52\u5C5E\u5730"
-    - DOMAIN-SUFFIX,bilivideo.com,DIRECT
-    - DOMAIN-SUFFIX,akamaized.net,DIRECT
-    - DOMAIN-SUFFIX,hdslb.com,DIRECT
-    - DOMAIN-SUFFIX,szbdyd.com,DIRECT
     - "DOMAIN-SUFFIX,weibo.cn,IP\u5F52\u5C5E\u5730"
     - "DOMAIN-SUFFIX,weibo.com,IP\u5F52\u5C5E\u5730"
     - "DOMAIN-SUFFIX,weibocdn.com,IP\u5F52\u5C5E\u5730"
@@ -65,26 +40,6 @@ parsers:
     - "IP-CIDR,103.41.167.0/24,IP\u5F52\u5C5E\u5730"
     - IP-CIDR,118.89.204.198/23,REJECT
     - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/40,REJECT
-    - "DOMAIN-KEYWORD,core-c-lq,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-KEYWORD,core-lq,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-KEYWORD,normal-c-lq,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-KEYWORD,normal-lq,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-KEYWORD,search-quic-lq,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-KEYWORD,search-lq,IP\u5F52\u5C5E\u5730"
-    - DOMAIN-SUFFIX,zijieapi.com,DIRECT
-    - DOMAIN-SUFFIX,ecombdapi.com,DIRECT
-    - "DOMAIN-KEYWORD,-normal-hl,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-KEYWORD,-normal-c-hl,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-KEYWORD,-core-c-hl,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-KEYWORD,-normal-lf,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-KEYWORD,-normal-c-lf,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-KEYWORD,-core-c-lf,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN,sso.douyin.com,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN,www.douyin.com,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-SUFFIX,snssdk.com,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-SUFFIX,toutiaoapi.com,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-SUFFIX,gifshow.com,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-SUFFIX,ksapisrv.com,IP\u5F52\u5C5E\u5730"
     - "DOMAIN-SUFFIX,xiaohongshu.com,IP\u5F52\u5C5E\u5730"
     - "DOMAIN-KEYWORD,xiaohongshu,IP\u5F52\u5C5E\u5730"
     - "IP-CIDR,114.55.236.88/32,IP\u5F52\u5C5E\u5730"
